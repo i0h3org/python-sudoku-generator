@@ -40,4 +40,4 @@ python3 sudoku_generator.py base.txt <difficulty>
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
-Extended this to allow for someone to use the solver independent from the sudoku_generator. If you want to test the solver solely, use the solver-runner python file. 
+Extended this to allow for someone to use the solver independent from the sudoku_generator. If you want to test the solver solely, use the solver-runner python file. The puzzles.txt file are the puzzles I tested with the solver.
