@@ -1,3 +1,5 @@
+/*------- Pulled From Source -------*/
+
 ## What
 This is a sudoku generating application. It generates a sudoku puzzle with a unique solution
 of varying difficulties according to the requested difficulty. It guarantees that there is always
@@ -35,3 +37,7 @@ python3 sudoku_generator.py base.txt <difficulty>
 
 ### extreme
 <table><tr><td> </td><td> </td><td> </td><td>7</td><td> </td><td> </td><td>3</td><td> </td><td>2</td></tr><tr><td> </td><td> </td><td> </td><td>4</td><td> </td><td> </td><td>9</td><td> </td><td> </td></tr><tr><td>8</td><td>7</td><td> </td><td> </td><td>3</td><td> </td><td> </td><td> </td><td>5</td></tr><tr><td> </td><td>2</td><td> </td><td> </td><td>5</td><td> </td><td> </td><td>8</td><td> </td></tr><tr><td> </td><td> </td><td>7</td><td>2</td><td> </td><td>1</td><td> </td><td> </td><td> </td></tr><tr><td>6</td><td> </td><td>5</td><td> </td><td> </td><td>9</td><td>4</td><td> </td><td> </td></tr><tr><td>3</td><td> </td><td>1</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr><tr><td>4</td><td>6</td><td> </td><td> </td><td>8</td><td> </td><td> </td><td> </td><td> </td></tr><tr><td> </td><td> </td><td> </td><td>5</td><td>1</td><td>3</td><td> </td><td> </td><td> </td></tr></table>
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Extended this to allow for someone to use the solver independent from the sudoku_generator. If you want to test the solver solely, use the solver-runner python file. 
